@@ -1,0 +1,57 @@
+/* add your CSS here */
+
+/*Font style for interesting fact*/
+.facts{
+	font-style: italic;
+}
+
+/* Making Labels Bold*/
+span{
+      font-weight: bold;
+}
+
+/* Dots are removed */
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+/* Border Applied around the full card and animal information */
+.fullCard, .info {
+	border: 1px solid #D8D8D8;
+}
+
+/* Img size set to 300px*/
+img{
+
+	width: 300px;
+}
+
+/* Margin set to all the elements in the card */
+h3, img,.info {
+	margin: 1em;
+}
+
+/* Name of the animal Aligned in the card */
+h3{
+	margin: 0;
+	margin-left: 1em;
+	margin-top: 5px;
+}
+
+/* Width of the card is set and box-shadow styling is applied to the animal card */
+.fullCard{
+width: 350px;
+margin: 0;
+box-shadow: 10px 10px 10px 0px rgba(194,194,194,1);
+}
+
+/* Information of the animal card width is set according to img width */
+.info{
+	width: 290px;
+	padding: 10px;
+}
+
+.info p{
+	text-align: justify;
+}
